@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # UTC
-    - cron: "40 8 * * *"
+    - cron: "40 00 * * *"
 
 jobs:
   checkin:
